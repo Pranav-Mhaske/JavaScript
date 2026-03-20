@@ -12,6 +12,8 @@ const friends = ['Pranav', 'Pratik', 'Manav', 'Vaibhav', 'Akshay', 'Vyankatesh',
 
 let i = 0
 
+//While loop to print the names of friends present in the array.
+
 while(i < friends.length) {
     console.log(`${i + 1}. ${friends[i]}`);
     friends[i] = friends[i] + ' Procodrr'
