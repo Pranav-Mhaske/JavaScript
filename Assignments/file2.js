@@ -1,0 +1,3 @@
+function bookSeats(a, b) {
+    
+}

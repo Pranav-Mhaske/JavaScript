@@ -1,3 +1,3 @@
-function (a, b) {
-    
+function numberOfSeats(a, b) {
+    return a * b;
 }
