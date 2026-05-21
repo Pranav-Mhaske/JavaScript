@@ -9,12 +9,25 @@
   </head>
   <body style="font-family: cursive">
     <h1>How to measure time taken for code</h1>
-    <h2>Big O Notation</h2>
+    <ol>
+      <li>1. Using performance.now()</li>
+      <li>2. Using console.time() and console.timeEnd()</li>
+      <li>3. Using Date.now()</li>
+      <li>4. Using process.hrtime() (Node.js)</li>
+    </ol>
+
     <p>
-      1.Using performance.now()
-      2.Using console.time() and console.timeEnd()
-      3.Using Date.now()
-      4.Using process.hrtime() (Node.js)
+      1. Using performance.now(): This method provides a high-resolution timestamp in milliseconds, which is useful for measuring the time taken by a specific block of code or function.
+    </p>
+    <p>
+      2. Using console.time() and console.timeEnd(): This method allows you to label
+        a timer and then end it, providing the time taken between the two calls in milliseconds.
+    </p>
+    <p>
+      3. Using Date.now(): This method returns the number of milliseconds elapsed since January 1, 1970, and can be used to measure time by capturing the start and end timestamps.
+    </p>
+    <p>
+      4. Using process.hrtime() (Node.js): This method provides a high-resolution real-time in seconds and nanoseconds, which is useful for measuring the time taken by code in a Node.js environment.
     </p>
   </body>
 </html>
